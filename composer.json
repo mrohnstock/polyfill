@@ -1,0 +1,41 @@
+{
+    "name": "drmonty/polyfill",
+    "description": "A polyfill for implementing the HTML5 <input type='*'> element in browsers that do not currently support it.",
+    "type": "component",
+    "homepage": "https://github.com/jonstipe",
+    "license": "MIT",
+    "author": {
+        "name": "Jonathan Stipe",
+        "url": "https://github.com/jonstipe"
+    },
+    "require": {
+        "robloach/component-installer": "*"
+    },
+    "require": {
+        "components/jquery": ">=1.7"
+    },
+    "extra": {
+        "component": {
+            "scripts": [
+                "js/color-polyfill.js",
+                "js/date-polyfill.js",
+                "js/datetime-polyfill.js",
+                "js/datetime-local-polyfill.js",
+                "js/meter-polyfill.js",
+                "js/month-polyfill.js",
+                "js/number-polyfill.js",
+                "js/progress-polyfill.js",
+                "js/range-polyfill.js",
+                "js/time-polyfill.js",
+                "js/week-polyfill.js"
+            ],
+            "files": [
+                "js/*.min.js",
+                "css/*.css"
+            ],
+            "shim": {
+                "deps": ["jquery"]
+            }
+        }
+    }
+}

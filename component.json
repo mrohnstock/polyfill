@@ -1,0 +1,52 @@
+{
+    "name": "drmonty-polyfill",
+    "repo": "drmonty/polyfill",
+    "description": "A polyfill for implementing the HTML5 <input type='*'> element in browsers that do not currently support it.",
+    "homepage": "https://github.com/jonstipe",
+    "license": "MIT",
+    "author": {
+        "name": "Jonathan Stipe",
+        "url": "https://github.com/jonstipe"
+    },
+    "dependencies": {
+        "components/jquery": ">=1.7"
+    },
+    "main": "js/jquery.dataTables.js",
+    "scripts": [
+        "js/color-polyfill.js",
+        "js/date-polyfill.js",
+        "js/datetime-polyfill.js",
+        "js/datetime-local-polyfill.js",
+        "js/meter-polyfill.js",
+        "js/month-polyfill.js",
+        "js/number-polyfill.js",
+        "js/progress-polyfill.js",
+        "js/range-polyfill.js",
+        "js/time-polyfill.js",
+        "js/week-polyfill.js"
+    ],
+    "files": [
+        "js/color-polyfill.min.js",
+        "js/date-polyfill.min.js",
+        "js/datetime-polyfill.min.js",
+        "js/datetime-local-polyfill.min.js",
+        "js/meter-polyfill.min.js",
+        "js/month-polyfill.min.js",
+        "js/number-polyfill.min.js",
+        "js/progress-polyfill.min.js",
+        "js/range-polyfill.min.js",
+        "js/time-polyfill.min.js",
+        "js/week-polyfill.min.js",
+        "css/color-polyfill.css",
+        "css/date-polyfill.css",
+        "css/datetime-polyfill.css",
+        "css/datetime-local-polyfill.css",
+        "css/meter-polyfill.css",
+        "css/month-polyfill.css",
+        "css/number-polyfill.css",
+        "css/progress-polyfill.css",
+        "css/range-polyfill.css",
+        "css/time-polyfill.css",
+        "css/week-polyfill.css"
+    ]
+}

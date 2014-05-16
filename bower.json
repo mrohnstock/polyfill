@@ -1,0 +1,14 @@
+{
+    "name": "drmonty-polyfill",
+    "description": "A polyfill for implementing the HTML5 <input type='*'> element in browsers that do not currently support it.",
+    "homepage": "https://github.com/jonstipe",
+    "license": "MIT",
+    "dependencies": {
+        "jquery": ">=1.7"
+    },
+    "ignore": [
+        "component.json",
+        "package.json",
+        "composer.json"
+    ]
+}
